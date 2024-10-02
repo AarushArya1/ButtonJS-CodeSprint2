@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Static web page by Aarush A</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    
+
+
+    <body>
+        <h1> BOBA CHALLENGE BUT WITH A COOL BUTTON</h1>
+
+        <h2> 🧋🧋🧋 W Web Page by Aarush Arya 🧋🧋🧋 </h2>
+        
+        <h1>  The Button changes the background of the page. 🧋🧋🧋🧋🧋 </h1>
+        
+        <p> 🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋
+            🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋
+            🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋
+            🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋
+            🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋
+            🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋
+            🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋🧋</p>
+
+        <button id="colorButton">Click this button. 🧋</button>
+
+        <script>
+                
+            function changeBackground() {
+                
+
+                let existingStyleSheet = document.querySelector('link[rel="stylesheet"]');
+
+
+                if (existingStyleSheet.getAttribute('href') === 'styles.css') {
+                        existingStyleSheet.setAttribute('href', 'styles2.css');
+                } else if (existingStyleSheet.getAttribute('href') === 'styles2.css'){
+                        existingStyleSheet.setAttribute('href', 'styles3.css');
+                } else {
+                    existingStyleSheet.setAttribute('href', 'styles.css');
+                }
+                
+
+
+
+            }
+    
+                
+            document.getElementById('colorButton').addEventListener('click', changeBackground);
+        </script>
+
+        <img src="https://www.eatingwell.com/thmb/Sud6f5AxXQDmX-_LSVZOafBF96w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/boba-tea-explainer-131c892c9c8540bdac4f6a0b403263df.jpg" width="200" height="150"/>
+        
+        <img src="https://www.ohhowcivilized.com/wp-content/uploads/bubble-tea-boba-recipe.jpg" width="200" height="150"/>
+        <img src="https://simplyhomecooked.com/wp-content/uploads/2023/04/Brown-sugar-boba-6.jpg" width="200" height="150"/>
+        <img src="https://simplyhomecooked.com/wp-content/uploads/2023/04/Brown-sugar-boba-6.jpg" width="200" height="150"/>
+        <img src="https://simplyhomecooked.com/wp-content/uploads/2023/04/Brown-sugar-boba-6.jpg" width="200" height="150"/>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <ul>
+            <li> 🧋 1</li>
+            <li> 🧋 2</li>
+            <li> 🧋 3</li>
+            <li> 🧋 4</li>
+
+        </ul>
+        
+        <ul>
+            <li> BobaDrops-Static-Site</li>
+        </ul>
+
+
+
+        <p> <b> Bold text 🧋🧋🧋 </b> <i> Italicized Text 🧋🧋🧋 </i> </p>
+    </body>
+
+</html>
